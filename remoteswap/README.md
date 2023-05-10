@@ -1,5 +1,5 @@
 # Remoteswap
-A RDMA-based remote swap system for remote memory and disaggregated clusters. The codebase is larged adopted from Fastswap (https://github.com/clusterfarmem/fastswap) and Canvas (https://github.com/uclasys/canvas), but is enhanced with our optimizations.
+A RDMA-based remote swap system for remote memory and disaggregated clusters. The codebase is larged adopted from Fastswap (https://github.com/clusterfarmem/fastswap) and Canvas (https://github.com/uclasystem/canvas), but is enhanced with our optimizations.
 
 ## Prerequisites
 Remoteswap is developed and tested under the following settings:
@@ -116,7 +116,7 @@ sudo ./manage_rswap_client.sh uninstall
 ```
 
 ## Acknowledgement
-The codebase is largely adopted from Fastswap (https://github.com/clusterfarmem/fastswap) and Canvas (https://github.com/uclasys/canvas).
+The codebase is largely adopted from Fastswap (https://github.com/clusterfarmem/fastswap) and Canvas (https://github.com/uclasystem/canvas).
 
 ## Contact
 Please contact yifanqiao [at] g [dot] ucla [dot] edu for assistance.
