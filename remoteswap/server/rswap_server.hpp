@@ -61,6 +61,7 @@ struct context {
   struct rswap_rdma_queue *rdma_queues;
 
   struct ibv_comp_channel *comp_channel;
+  pthread_t cq_poller_thread; // daemon thread for two-sided RDMA
 
   struct message *recv_msg;
   struct ibv_mr *recv_mr;
