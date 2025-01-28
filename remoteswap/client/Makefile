@@ -17,9 +17,9 @@ RSWAP_ROOT_PATH := $(shell dirname $(abspath $(lastword $(MAKEFILE_LIST))))
 ifneq ($(LINUXINCLUDE),)
 
 LINUXINCLUDE :=                 \
+	$(LINUXINCLUDE)         \
 	-I$(OFA_INCLUDE)        \
-	-I$(RSWAP_ROOT_PATH)/.. \
-	$(LINUXINCLUDE)
+	-I$(RSWAP_ROOT_PATH)/..
 else
 
 export KBUILD_EXTRA_SYMBOLS=$(OFA_SYMVERS)

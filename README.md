@@ -11,7 +11,7 @@ Hardware:
 Software:
 * OS: Ubuntu 18.04/20.04
 * gcc 7.5.0/9.4.0
-* Mellanox OFED driver: 5.4-3.1.0.0-LTS (for ConnectX-5 and 6), or 4.9-4.1.7.0-LTS (for ConnectX-3).
+* Mellanox OFED driver: 5.4-3.7.5.0-LTS (for ConnectX-5 and 6), or 4.9-4.1.7.0-LTS (for ConnectX-3).
 
 ## Build & Install Hermit
 Next we will use Ubuntu 20.04 as an example to show how to build and install the kernel. It is not required but highly recommended to have the same kernel version for both host and memory server.
