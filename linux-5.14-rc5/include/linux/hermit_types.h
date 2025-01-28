@@ -21,6 +21,8 @@ struct hmt_work_struct {
  * swap stats to control async swap out
  */
 struct hmt_swap_ctrl {
+	// `lock` must be the first field in the struct to avoid breaking
+	// `hmt_clear_locked_swap_ctrl()`.
 	spinlock_t lock;
 	atomic_t sthd_cnt;
 	atomic_t active_sthd_cnt;
